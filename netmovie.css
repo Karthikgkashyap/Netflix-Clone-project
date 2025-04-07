@@ -1,0 +1,97 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+}
+header .logo {
+    color: #e50914;
+    background-image: url("images/Netflix-Brand-Logo.webp0");
+    font-size: 24px;
+    font-weight: bold;
+}
+header .nav-links {
+    display: flex;
+    gap: 25px;
+}
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+header .nav-links button {
+    background-color: #e50914;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+}
+main {
+    padding: 20px;
+}
+main h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+main p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+section {
+    margin-top: 40px;
+}
+section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.movie-item {
+    position:relative;
+}
+.movie-item img {
+    width: 100%;
+    border-radius: 4px;
+}
+/* .movie-item .badge { */
+    /* position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #e50914;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px; */
+/* } */
+.movie-item .top10 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e50914;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.movie-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+/* .see-more-btn a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e50914;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+ } */
